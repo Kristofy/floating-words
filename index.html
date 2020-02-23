@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="p5.min.js"></script>
+		<script src="p5.dom.min.js"></script>
+    	<script src="p5.sound.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		</body>
+		</html>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<script src="sketch.js"></script>
+		<div class="center" style="transform:translateX(50%);">
+			<div id="parent" style="transform:translateX(-50%);"></div>
+		</div>
+		<input class="form-control w-75 mx-auto" placeholder="ide irj" />
+		<p class="text-center"">a pontjaid száma: <strong><span>0</span></strong>. Legnagyobb pontszam: <strong><span id="highscore">0</span></strong>.</p>
+		<div class="text-center mt-3 mb-3 mx-auto">
+			<button class="btn btn-primary" type="button" onclick="pause()">Pause</button>
+			<p class="d-inline mx-3">Írd be a megjelenő szavakat majd nyomd le a space billentyűt</p>
+			<button class="btn btn-secondary" type="button" onclick="reset()">Reset</button>
+		</div>
+		<footer class="mt-5 float-right mr-3">
+			<strong>Készítette: </strong>Osztopáni Kristóf (2018/11/24)
+		</footer>
+	</body>
+</html>
